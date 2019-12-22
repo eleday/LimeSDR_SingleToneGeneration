@@ -42,8 +42,8 @@ void StreamTest()
 	for (int i = 0; i <tx_size; i++)
 	{
 
-	tx_buffer[2 * i] =0.5;
-	tx_buffer[2 * i + 1] = 0 ;
+	tx_buffer[2 * i] =0.5;     //I data
+	tx_buffer[2 * i + 1] = 0 ;  //Q data
 
 	}
 
@@ -85,7 +85,7 @@ int main(int argc, char** argv)
 			error();
 
 		std::cout << "SetLOFrequency\n";
-		if (LMS_SetLOFrequency(device, LMS_CH_TX, 0, 2.47e9) != 0)
+		if (LMS_SetLOFrequency(device, LMS_CH_TX, 0, 2.47e9) != 0)   //Set LO Frequency
 			error();
 		std::cout << "SetAtenna\n";
 		if (LMS_SetAntenna(device, LMS_CH_TX, 0, LMS_PATH_TX1) != 0)   //TX1_1        
