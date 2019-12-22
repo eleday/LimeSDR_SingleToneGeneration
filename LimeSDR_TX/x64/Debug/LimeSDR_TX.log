@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (LimeSDR_TX.vcxproj, TwoToneGeneration.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SingleToneGeneration.cpp
+  LimeSDR_TX.vcxproj -> H:\Projects\GitHub\SingleToneGeneration_C++\x64\Debug\SingleToneGeneration.exe
+  LimeSDR_TX.vcxproj -> H:\Projects\GitHub\SingleToneGeneration_C++\x64\Debug\SingleToneGeneration.pdb (Full PDB)

@@ -1,0 +1,2 @@
+﻿  LimeSDR_TX.cpp
+h:\projects\c++\sdr\limesdr_tx\limesdr_tx\limesdr_tx.cpp(7): fatal error C1083: Cannot open include file: 'lime/LimeSuite.h': No such file or directory
